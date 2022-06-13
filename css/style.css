@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #ccc5b9 !important;
+}
+.navbar-nav a{
+    color:rgb(214, 83, 83);
+    font-weight: 700;
+       
+}
+.navbar-brand{
+    color:red;
+    font-weight: 900;
+}
+.titulo{
+    text-align: center;
+    color:#b1a7a6;
+    background: linear-gradient(#161a1d, #ba181b);
+    
+}
+.carousel-inner{
+    width: auto;
+    max-height:30rem;
+}
