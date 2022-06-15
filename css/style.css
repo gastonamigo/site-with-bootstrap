@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.cuerpo{
+    background-color:#00b4ab23;
+}
 .navbar{
-    background-color: #ccc5b9 !important;
+    background: linear-gradient(#f3668f, #ffd4ed, #f9c903);
 }
 .navbar-nav a{
     color:rgb(214, 83, 83);
@@ -23,4 +26,60 @@
 .carousel-inner{
     width: auto;
     max-height:30rem;
+}
+.tarjeta1, .tarjeta2{
+    background: linear-gradient(#ffd9329f, #ff5e9654, #00b4ab3b) ;
+}
+.btn{
+    background-color: rgb(16, 185, 241);
+}
+.fondo{
+    background: lightcyan;
+}
+.titulocontacto{
+    text-align: center;
+    background-color:#31abe433;
+    color:rgb(36, 136, 170);
+}
+.formulario{
+    border: #161a1d solid 1px;
+    border-radius: 1rem;
+    background-color: white;
+}
+.infoContactos{
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 15px;
+    color: red;   
+    
+} 
+.infoContactos li{
+    list-style: none;
+    padding: 1rem;
+    
+}
+
+.tituloVenta{
+    text-align: center;
+    color:rgb(36, 136, 170);
+    
+}
+.mainVenta{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mainVenta p{
+    border: black solid 1px;
+    padding: 4rem;
+    border-radius: 2rem;
+    background:linear-gradient(90deg, rgba(131,58,180,0.25253851540616246) 0%, rgba(253,29,29,0.6587009803921569) 50%, rgba(252,176,69,0.3029586834733894) 100%);
+    font-size: 1.5rem;
+    color:rgb(7, 75, 75);
+    font-weight: 500;
 }
